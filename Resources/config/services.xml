@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="highco.cross_linking.collector.manager.class">Highco\CrossLinkingBundle\Collector\CrossLinkingManager</parameter>
+    </parameters>
+
+    <services>
+        <service id="highco.cross_linking.collector.manager" class="%highco.cross_linking.collector.manager.class%">
+        </service>
+    </services>
+
+</container>
