@@ -25,3 +25,4 @@ class HighcoCrossLinkingExtension extends Extension
         $loader->load('services.xml');
     }
 }
+
